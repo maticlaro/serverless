@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "typeRoots": ["./functions/node_modules/@types"],
+    "typeRoots": [
+      "./functions/node_modules/@types"
+    ],
     "lib": ["ES6"],
     "module": "commonjs",
     "noImplicitReturns": true,
-    "noUnusedLocals": true,
     "outDir": "lib",
     "sourceMap": true,
-    "strict": true,
     "target": "es6"
   },
   "compileOnSave": true,
