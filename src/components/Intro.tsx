@@ -1,17 +1,11 @@
-import * as Reacr from 'react'
+import * as React from 'react'
 
-export default class Intro extends React.Component {    
+export default class Intro extends React.Component {
     public render() {
         return (
-            <p>Edit <code>src/App.tsx</code> and save to reload.</p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
+            <main>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam debitis praesentium rem facere ipsam nobis corrupti ratione eos unde eius animi eum iusto, quo minus, dolore distinctio necessitatibus quia! In.</p>
+            </main>  
         )
     }
 }
